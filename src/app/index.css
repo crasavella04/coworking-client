@@ -1,0 +1,226 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* #root {
+  margin: 0 !important;
+  padding: 0 !important;
+} */
+
+:root {
+  --container-width: 1400px;
+  --laptop-max-size: 1440px;
+  --mini-laptop-max-size: 1200px;
+  --tablet-max-size: 960px;
+  --tablet-vertical-max-size: 720px;
+  --mobile-max-size: 560px;
+  --primary-color: #1677ff;
+  --secondary-color: #fff;
+  --thirdly-color: #000;
+  --success-color: #52c41a;
+  --warning-color: #faad14;
+  --error-color: #f5222d;
+  --red-color: #ff4242;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 28px;
+  --space-8: 32px;
+  --space-9: 36px;
+  --space-10: 40px;
+  --space-11: 44px;
+  --space-12: 48px;
+  --space-13: 52px;
+  --space-14: 56px;
+  --space-15: 60px;
+  --space-16: 64px;
+  --space-17: 68px;
+  --space-18: 72px;
+  --space-19: 76px;
+  --space-20: 80px;
+
+  --font-sm: 12px;
+  --font-md: 14px;
+  --font-base: 16px;
+  --font-lg: 20px;
+  --font-xl: 24px;
+  --font-xxl: 28px;
+
+  --primary-text: #252525;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #1677ff;
+    --secondary-color: #fff;
+    --primary-text: #252525;
+  }
+}
+
+@media (max-width: 1440px) {
+  :root {
+    --container-width: 1100px;
+  }
+}
+@media (max-width: 1200px) {
+  :root {
+    --container-width: 900px;
+  }
+}
+@media (max-width: 960px) {
+  :root {
+    --container-width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  :root {
+    --container-width: 540px;
+  }
+}
+@media (max-width: 560px) {
+  :root {
+    --container-width: 90%;
+  }
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.2;
+  font-size: var(--font-base);
+  color: var(--primary-text);
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

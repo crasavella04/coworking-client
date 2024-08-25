@@ -1,0 +1,88 @@
+.container {
+  border: 2px solid #00000020;
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  min-height: 200px;
+}
+
+.imageContainer {
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+.arrowLeft {
+  position: absolute;
+  top: 50%;
+  transform: rotateY(50%);
+  left: var(--space-3);
+  cursor: pointer;
+}
+.arrowRight {
+  position: absolute;
+  top: 50%;
+  transform: rotateY(50%);
+  right: var(--space-3);
+  cursor: pointer;
+}
+
+.img {
+  height: 200px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  padding: var(--space-3);
+  flex-direction: column;
+  gap: var(--space-2);
+  position: relative;
+}
+
+.content > * {
+  line-height: var(--space-6);
+}
+
+.contentAddress {
+  flex: 1;
+  display: flex;
+  gap: var(--space-3);
+}
+
+.contentAddress > div {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  height: min-content;
+}
+
+.contentConvenience {
+  font-weight: 600;
+}
+
+.contentTitle {
+  font-size: var(--font-lg);
+  font-weight: 600;
+}
+
+.contentButton {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  justify-content: flex-end;
+}
+
+.contentRating {
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-3);
+}
+
+.carouselSize {
+  height: 200px;
+  width: 300px;
+}

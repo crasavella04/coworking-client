@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: var(--space-10);
+  width: var(--container-width);
+  padding: var(--space-7);
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.convenientsContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: var(--space-7);
+}
+
+.convenientItem {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.convenientItem h3 {
+  font-size: var(--font-xl);
+  font-weight: 600;
+  display: flex;
+  gap: var(--space-5);
+  align-items: center;
+}
+
+.convenientItem h3::before {
+  content: "";
+  background: url("/purple_arrow.svg");
+  width: 49px;
+  height: 30px;
+  display: block;
+}
+
+.convenientItem p {
+}

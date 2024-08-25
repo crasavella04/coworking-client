@@ -1,0 +1,13 @@
+.auth {
+  display: flex;
+  gap: var(--space-4);
+  align-items: center;
+  text-decoration: none;
+  color: var(--thirdly-color);
+  font-size: 18px;
+}
+
+.avatar {
+  width: 40px;
+  aspect-ratio: 1 / 1;
+}

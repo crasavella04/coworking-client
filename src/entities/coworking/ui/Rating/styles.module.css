@@ -1,0 +1,16 @@
+.rating {
+  color: var(--secondary-color);
+  padding: var(--space-1);
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+.ratingSuccess {
+  background: var(--success-color);
+}
+.ratingWarning {
+  background: var(--warning-color);
+}
+.ratingError {
+  background: var(--error-color);
+}

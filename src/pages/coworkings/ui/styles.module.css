@@ -1,0 +1,8 @@
+.container {
+  width: var(--container-width);
+  margin: 0 auto;
+  padding: var(--space-6) 0;
+
+  display: flex;
+  flex: 1 1 100%;
+}

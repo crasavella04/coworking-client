@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: var(--space-10);
+  width: var(--container-width);
+  padding: var(--space-7);
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.plusesContainer {
+  display: flex;
+  gap: var(--space-10);
+}
+
+.plusItem {
+  padding: var(--space-3) var(--space-5);
+  width: 350px;
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  background: white;
+  box-shadow: 0px 4px 31.4px rgba(0, 3, 101, 0.2);
+  border-radius: 18px;
+  border: 1px solid var(--primary-color);
+}
+
+.plusItem span {
+  font-size: 28px;
+  font-weight: 600;
+}
